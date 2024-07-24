@@ -1,0 +1,28 @@
+:root {
+    --primary: #F8485E;
+    --secondary:#6054E8;
+    --light-gray:#EAEAEA;
+    --text-gray:#3f444b;
+    --white:#fff;
+    --black:#000;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    transition: all;
+    transition-duration: 0.2s;
+}
+
+header,
+section,
+footer {
+    padding-inline: 5%;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
