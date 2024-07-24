@@ -429,6 +429,39 @@ section#features .cards .icon {
     transform: rotate(-405deg);
 }
 
+/* ********** COMPANIES *********** */
+
+#companies .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    border: solid 0.5px;
+    gap: 2rem;
+    padding: 5px;
+    overflow: hidden
+}
+
+#companies .logo {
+    min-width: 3rem;
+    width: 4rem;
+}
+
+#companies h2 {
+    display: flex;
+    justify-content: center;
+    margin: 1rem;
+}
+
+.logo {
+    width: 5rem;
+    max-width: 100%;
+    height: auto;
+    transition: all 0.5s ease;
+    text-align: justify;
+    }
+}
+
 @media (max-width: 810px) {
     .menu-button-container {
         display: flex;
@@ -505,35 +538,3 @@ section#features .cards .icon {
 }
 
 
-/* ********** COMPANIES *********** */
-
-#companies .container {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-    border: solid 0.5px;
-    gap: 2rem;
-    padding: 5px;
-    overflow: hidden
-}
-
-#companies .logo {
-    min-width: 3rem;
-    width: 4rem;
-}
-
-#companies h2 {
-    display: flex;
-    justify-content: center;
-    margin: 1rem;
-}
-
-.logo {
-    width: 5rem;
-    max-width: 100%;
-    height: auto;
-    transition: all 0.5s ease;
-    text-align: justify;
-    }
-}
