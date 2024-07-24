@@ -6,6 +6,35 @@
     --white:#fff;
     --black:#000;
 }
+.primary-button {
+    color: white;
+    background-color: var(--primary);
+    padding: 1rem 1.2rem;
+    border-radius: 50px;
+    font-weight: 700;
+    border: 2px solid var(--primary);
+    width: fit-content;
+    font-size: 17px;
+}
+.primary-button:hover {
+    background-color: var(--white);
+    color: var(--primary);
+}
+.secondary-button {
+    color: white;
+    background-color: var(--black);
+    padding: 1rem 1.2rem;
+    border-radius: 50px;
+    font-weight: 700;
+    font-size: 17px;
+    border: 2px solid var(--black);
+    width: fit-content;
+}
+.secondary-button:hover {
+    background-color: var(--secondary);
+    border-color: var(--secondary);
+    color: var(--white);
+}
 
 * {
     padding: 0;
@@ -15,9 +44,95 @@
     transition: all;
     transition-duration: 0.2s;
 }
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #c9dcd0;
+}
 
-header,
-section,
+header
+{
+    padding: 20px;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+.container {
+    width: 563; 
+    max-width: 1440px; 
+    margin: 0 auto; 
+    background: #fdfcfc; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden; 
+    padding: 10px;
+}
+.container iframe {
+    width: 100%;
+    height: auto;
+    border: 0; 
+    aspect-ratio: 16 / 9; 
+}
+#usp {
+    background-color: #f9f9f9; 
+    padding: 40px 20px; 
+    text-align: center; 
+}
+
+#usp h2 {
+    font-size: 32px; 
+    margin-bottom: 20px; 
+    color: #333; 
+}
+
+.usp-container {
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: center; 
+    gap: 20px; }
+
+.usp-item {
+    background-color: #fff; 
+    border: 1px solid #ddd; 
+    border-radius: 8px; 
+    padding: 20px; 
+    width: 300px; 
+    text-align: center; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /
+}
+
+.usp-item i {
+    font-size: 36px; 
+    color: #333; 
+    margin-bottom: 10px; 
+}
+
+.usp-item h3 {
+    font-size: 24px; 
+    margin-bottom: 10px; 
+    color: #555; 
+}
+
+.usp-item p {
+    font-size: 16px; 
+    color: #777; 
+@media (max-width: 768px) {
+    .container {
+        padding: 5px; /* Adjust padding on smaller screens */
+    }
+
+    section {
+        padding: 10px; /* Adjust padding on smaller screens */
+    }
+
+    header, footer {
+        padding: 10px; /* Adjust padding on smaller screens */
+    }
+}
+
 footer {
     padding-inline: 5%;
 }
@@ -25,4 +140,16 @@ footer {
 ul {
     list-style: none;
     padding: 0;
+}
+#video {
+    padding: 20px;
+}
+.video-content {
+    text-align: center; 
+}
+.video-content h1 {
+    font-size: 28px; 
+    margin-bottom: 20px; 
+    color: #333;
+}
 }
