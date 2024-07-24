@@ -29,27 +29,22 @@ ul {
 
 
 /* **************NAVBAR************* */
-.header_image {
-    display: flex;
-    justify-content: center;
-    width: 100%;
-}
-
-.logo {
-    width: 100px;
+.main_logo {
+    width: 5rem;
     max-width: 100%;
     height: auto;
     transition: all 0.5s ease;
     text-align: justify;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
 }
+
 .top-nav {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
     background-color: white;
-    background: linear-gradient(to left, #f46b45, #eea849);
-    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     color: #fff;
     height: 50px;
     padding: 1em;
@@ -62,7 +57,7 @@ ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    color: white;
+    color: black;
 }
 
 .menu>li {
@@ -71,7 +66,7 @@ ul {
 
 .menu>li a {
     text-decoration: none;
-    color: white;
+    color: black;
     overflow: auto;
 }
 
@@ -93,7 +88,7 @@ ul {
 .menu-button::before,
 .menu-button::after {
     display: block;
-    background-color: #fff;
+    background-color: #000000;
     position: absolute;
     height: 4px;
     width: 30px;
@@ -198,4 +193,34 @@ ul {
         width: 100%;
         flex-wrap: wrap;
     }
+}
+
+
+/* ********** COMPANIES *********** */
+
+#companies .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    border: solid 0.5px;
+    gap: 2rem;
+    padding: 5px;
+    overflow:hidden
+}
+#companies .logo {
+    min-width: 3rem;
+    width: 4rem;
+}
+#companies h2 {
+    display: flex;
+    justify-content: center;
+    margin: 1rem;
+}
+.logo {
+    width: 5rem;
+    max-width: 100%;
+    height: auto;
+    transition: all 0.5s ease;
+    text-align: justify;
 }
