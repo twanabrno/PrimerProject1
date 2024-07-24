@@ -301,6 +301,53 @@ section#features .cards .icon {
     transform: rotate(-405deg);
 }
 
+/* USB */
+#usp {
+    background-color: #F9F9F9;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+#usp h2 {
+    font-size: 32px;
+    margin-bottom: 2rem;
+    color: #333;
+}
+
+.usp-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.usp-item {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);/
+}
+
+.usp-item i {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.usp-item h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #555;
+}
+
+.usp-item p {
+    font-size: 16px;
+    color: #777;
+}
+
 
 /* COMPANIES */
 #companies .container {
@@ -407,5 +454,3 @@ section#features .cards .icon {
         flex-wrap: wrap;
     }
 }
-
-
