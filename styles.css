@@ -388,8 +388,8 @@ footer {
     justify-content: center;
 }
 
-.logo_item {
-    width: 10rem;
+.logo_item img {
+    width: 15rem;
     display: flex;
     flex-wrap: nowrap;
     justify-content: center;
