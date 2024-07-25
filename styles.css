@@ -534,3 +534,14 @@ footer {
     background: #125688;
     color: white;
 }
+#video {
+    padding: 20px;
+}
+.video-content {
+    text-align: center;
+}
+.video-content h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #333;
+}
