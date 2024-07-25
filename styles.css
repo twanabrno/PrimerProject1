@@ -211,7 +211,7 @@ section#features .cards .icon {
 
 /* *********** NAVBAR ********** */
 .main_logo {
-    width: 5rem;
+    width: 12rem;
     max-width: 100%;
     height: auto;
     transition: all 0.5s ease;
