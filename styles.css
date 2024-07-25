@@ -103,6 +103,9 @@ button {
 
 /* ********* Home ********* */
 section#home {
+    background-image: url("https://cdn.prod.website-files.com/64467da54bf577ff74aca48d/6446c7a136d04cc3266d0648_Line%20accents.png");
+    background-repeat: no-repeat;
+    background-position: 100% 100%;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     justify-items: center;
@@ -177,6 +180,7 @@ section#features .cards {
 
 section#prices .card,
 section#features .card {
+    background-color: var(--white);
     margin-inline: auto;
     display: flex;
     flex-direction: column;
@@ -206,6 +210,9 @@ section#prices .card .price-sign {
 
 /* ****** Features ******** */
 section#features {
+    background-image: url("https://brainstation.io/images/v3/shapes/global-navigation.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
     text-align: center;
 }
 
@@ -391,9 +398,11 @@ header {
     margin: 1rem;
 }
 
-
 /* ******* FOOTER ********** */
 footer {
+    background-image: url("https://www.eydticaret.com/imgs/topProducts.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
     background-color: var(--bg-light-gray);
     text-align: center;
 }
@@ -466,6 +475,10 @@ footer .social-icons .fa-instagram {
 
 /* VIDEO */
 #video {
+    background-image: url("https://www.eydticaret.com/imgs/bgshape.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: top right;
     text-align: center;
 }
 
@@ -542,7 +555,7 @@ footer .social-icons .fa-instagram {
         height: 100%;
         color: var(--black);
     }
-    
+
 
     .menu>li:not(:last-child) {
         border-bottom: 1px solid #444;
