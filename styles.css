@@ -346,11 +346,10 @@ section#features .cards .icon {
     background-color: var(--bg-light-gray);
 }
 
-#companies .container {
+#companies .companies_container {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    border: solid 0.5px;
     gap: 2rem;
     padding: 5px;
     overflow: hidden
