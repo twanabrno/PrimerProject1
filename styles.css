@@ -478,12 +478,10 @@ a {
     width: 100%;
     max-width: 1000px; 
     height: 562px;
-}
-    font-size: 28px;
+  font-size: 28px;
     margin-bottom: 20px;
     color: #333;
-}
-
+   }
 @media (max-width: 810px) {
     .menu-button-container {
         display: flex;
