@@ -535,13 +535,24 @@ footer {
     color: white;
 }
 #video {
-    padding: 20px;
+    padding: 40px 20px; 
+    text-align: center; 
 }
-.video-content {
-    text-align: center;
-}
+
 .video-content h1 {
-    font-size: 28px;
-    margin-bottom: 20px;
-    color: #333;
+    font-size: 32px; 
+    margin-bottom: 20px; 
+    color: #333; 
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container iframe {
+    width: 100%;
+    max-width: 1000px; 
+    height: 562px;
 }
